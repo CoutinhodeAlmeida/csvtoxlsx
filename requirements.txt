@@ -1,7 +1,6 @@
-setuptools==75.8.2
-wheel
-pip
+numpy==1.23.5
 pandas==1.5.3
+setuptools
+wheel
 flask
-xlsxwriter
 gunicorn
