@@ -4,3 +4,4 @@ setuptools
 wheel
 flask
 gunicorn
+xlsxwriter
