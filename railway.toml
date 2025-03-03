@@ -6,6 +6,9 @@ runtime = "V2"
 numReplicas = 1
 startCommand = "gunicorn -b 0.0.0.0:5000 app:app"
 sleepApplication = false
-multiRegionConfig = {"europe-west1":{"numReplicas":1}}
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
+
+[deploy.multiRegionConfig]
+[deploy.multiRegionConfig.europe-west1]
+numReplicas = 1
